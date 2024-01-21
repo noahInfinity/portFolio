@@ -1,0 +1,26 @@
+.main{
+    margin: 0 auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main h1{
+    font-size: 3rem;
+    line-height: 1.125;
+}
+
+.main p{
+    color: #141414;
+    font-size: 1.125rem;
+    font-family: 'Merriweather', serif;
+}
